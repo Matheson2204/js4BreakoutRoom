@@ -10,9 +10,22 @@ How can you create a Promise for that situation?
 
 let isRaining = true;
 
-const weather = new Promise((resolve, reject) => {
+// const weather = new Promise((resolve, reject) => {
+//     if (isRaining === true) {
+//         resolve("The party will be in the park!")
+//     } else {
+//         reject("Oh no! The party will be in my apartment.")
+//     }
+// });
+//       weather.then(fulfilled => {
+//         console.log(fulfilled)
+//       }).catch(error => {
+//           console.log(error)
+//       })
     
-});
+
+
+
 
 // 1. The promise above is incomplete. On line 14 inside the Promise, create conditions for the promise to resolve or reject. The steps for doing so are below (a-c)
 // a) The promise should check if raining is true or false and carry out different code according to the condition (if... else)
